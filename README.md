@@ -171,6 +171,12 @@ The `pretty` parameter is optional, it only prettifies the json response for rea
 		]
 	}
 
+## Debugging
+
+If the scraping breaks a good starting point would be to run the scraper, there are some manual test runs for the different functions in there (see [here](https://github.com/Loknar/py-iata-lookup/blob/master/iata_scraper.py#L181-L190)).
+
+	python iata_scraper.py
+
 ## Licence
 
 WTFPL
