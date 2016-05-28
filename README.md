@@ -1,7 +1,7 @@
 
 # py-iata-lookup
 
-Small API powered by a simple python flask example which exposes as a json API a search form on [iata.org](http://www.iata.org/publications/Pages/code-search.aspx) where you're able to search for airlines and airports based on name or code.
+Small API powered by a simple python flask example which exposes (as a json API) a search form on [iata.org](http://www.iata.org/publications/Pages/code-search.aspx) where you're able to search for airlines and airports based on name or code.
 
 ## Setup and usage
 
