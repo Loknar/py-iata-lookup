@@ -9,7 +9,7 @@ You need to have [python 2.7 and pip](http://docs.python-guide.org/en/latest/sta
 
 	pip install -r pip_requirements.txt
 
-Open a terminal in this repository and run
+Open a terminal in this repository and start the py-iata-lookup API with
 
 	python app.py
 
@@ -17,13 +17,13 @@ You're now running a local instance of the py-iata-lookup API on your localhost:
 
 ## Examples
 
-Note: the `pretty` parameter is optional, it just prettifies the json response.
+The `pretty` parameter is optional, it only prettifies the json response for readability.
 
-[localhost:15000/](http://localhost:15000/)
+[http://localhost:15000/](http://localhost:15000/)
 
 	https://github.com/Loknar/py-iata-lookup
 
-[localhost:15000/airline/code/ww?pretty=true](http://localhost:15000/airline/code/ww?pretty=true)
+[http://localhost:15000/airline/code/ww?pretty=true](http://localhost:15000/airline/code/ww?pretty=true)
 
 	{
 		"results": [
@@ -36,7 +36,7 @@ Note: the `pretty` parameter is optional, it just prettifies the json response.
 		]
 	}
 
-[localhost:15000/airline/name/Norwegian?pretty=true](http://localhost:15000/airline/name/Norwegian?pretty=true)
+[http://localhost:15000/airline/name/Norwegian?pretty=true](http://localhost:15000/airline/name/Norwegian?pretty=true)
 
 	{
 		"results": [
@@ -67,7 +67,7 @@ Note: the `pretty` parameter is optional, it just prettifies the json response.
 		]
 	}
 
-[localhost:15000/location/name/London?pretty=true](http://localhost:15000/location/name/London?pretty=true)
+[http://localhost:15000/location/name/London?pretty=true](http://localhost:15000/location/name/London?pretty=true)
 
 	{
 		"results": [
@@ -158,7 +158,7 @@ Note: the `pretty` parameter is optional, it just prettifies the json response.
 		]
 	}
 
-[localhost:15000/location/code/YYZ?pretty=true](http://localhost:15000/location/code/YYZ?pretty=true)
+[http://localhost:15000/location/code/YYZ?pretty=true](http://localhost:15000/location/code/YYZ?pretty=true)
 
 	{
 		"results": [
