@@ -26,7 +26,7 @@ def scrape_and_return_results(search_param, scraper):
 
 @app.route('/')
 def index():
-	return 'https://github.com/Loknar/py-iata-lookup'
+	return 'https://github.com/Loknar/py-iata-lookup#examples'
 
 @app.route('/airline/code/<search_param>')
 def airline_code(search_param):
