@@ -19,9 +19,9 @@ You're now running a local instance of the py-iata-lookup API on your localhost:
 
 The `pretty` parameter is optional, it only prettifies the json response for readability.
 
-[http://localhost:15000/](http://localhost:15000/)
+[http://localhost:15000/](http://localhost:15000/) [the root just returns url to this README section]
 
-	https://github.com/Loknar/py-iata-lookup
+	https://github.com/Loknar/py-iata-lookup#examples
 
 [http://localhost:15000/airline/code/ww?pretty=true](http://localhost:15000/airline/code/ww?pretty=true)
 
